@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --text-color: #6d6a6a;
+    --black: #000;
+    --default-color: #242424;
+    --primary-color: #519f10;
+    --menu-color: #1b1b1b;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: var(--default-color);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid__row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pt-10 {
+    padding-top: 10px
+}
+
+.grid__col-3 {
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid__col-2-4 {
+    width: 20%;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-95 {
+    padding-bottom: 95px;
+}
+
+.pb-65 {
+    padding-bottom: 65px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-55 {
+    margin-bottom: 55px;
+}
+
+.grid__col-6 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid__col-12 {
+    width: 100%;
+}
+
+.grid__col-4 {
+    width: 33.333333%;
+    padding-left: 28px;
+    padding-right: 28px;
+}
